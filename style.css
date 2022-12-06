@@ -1,0 +1,165 @@
+html,body
+{
+  background-color: #ffdab9;
+}
+#line
+{
+  background-color: #c2e69e;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  flex-grow: 1;
+  font-size: 60px;
+  color: #008000;
+}
+#logo 
+{
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 250px;
+}
+.navigation
+{
+  display: flex;
+  background-color: #c2e69e;
+  margin-top: 20px;
+  flex-direction: column;
+  flex-grow: 1;
+  list-style-type: none;
+  justify-content: center;
+}
+.navigation li
+{
+   list-style-type: none;
+}
+#ssilki
+{
+  background-color: #c2e69e;
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-direction: column;
+}
+.tablitsa
+{
+  background-color: #c2e69e;
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.fourmaa
+{
+   background-color: #c2e69e;
+  display: flex;
+  flex-direction: column;
+   margin-top: 20px;
+  order: -1;
+}
+.swap
+{
+  display: flex;
+  flex-direction: column;
+}
+table 
+{
+  border: 1px solid #228b22;
+  width: 900px;
+  background: #99CC33;
+}
+td, th 
+{
+    padding: 3px;
+}
+th 
+{
+  text-align: center;
+  padding: 10px; 
+  border: 1px solid #A9E2CC;
+}
+td 
+{
+  text-align: center;
+  font-size: 0.8em;
+  padding: 5px 7px;
+  border: 1px solid #A9E2CC;
+}
+tr.even 
+{
+  background: #ffff00;
+}
+.footer
+{
+  display: flex;
+  background-color: #c2e69e;
+  font-size: 15px;
+  color: #008000;
+  margin-top: 20px;
+}
+@media screen and (min-width: 1224px) {
+#logo 
+{
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right: 200px;
+  margin-left: 240px;
+}
+.navigation
+{ 
+  display: flex;
+  background-color: #c2e69e;
+  flex-direction: row;
+  margin-left: 50px;
+  margin-left: 240px;
+  margin-right: 240px;
+}
+.navigation a
+  {
+     list-style-type: none;
+  display: inline-block;
+  float: left;
+  margin-right: 80px;
+  text-align: center;
+  } 
+  #ssilki
+{
+  background-color: #c2e69e;
+  display: flex;
+  flex-basis: auto;
+  justify-content: left;
+  margin-right: 240px;
+  margin-left: 240px;
+  flex-direction: column;
+}
+.tablitsa
+{
+  background-color: #c2e69e;
+  display: flex;
+  flex-basis: auto;
+  margin-right: 240px;
+  margin-left: 240px;
+  flex-direction: column;
+  pudding: 10px;
+  margin-top: 20px;
+  order: -1;
+}
+.swap
+{
+  display: flex;
+  flex-direction: column;
+}
+.fourmaa
+{
+   margin-top: 20px;
+   background-color: #c2e69e;
+  display: flex;
+  flex-basis: auto;
+    margin-right: 240px;
+  margin-left: 240px;
+  pudding: 10px;
+  flex-direction: column;
+}
+  
+}
